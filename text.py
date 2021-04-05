@@ -15,7 +15,7 @@ def countword():
     words = f.read().replace("\n", " ").split(" ")
     f.close()
     
-    key_word = words[0]
+    key_word = words[0].lower()
     counter = 1
     
     for word in words[1:]:
