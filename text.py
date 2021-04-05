@@ -11,7 +11,7 @@ def revword(word:str):
 
 
 def countword():
-    f = open("C:/Users/Eliezer/Documents/introduction_to_data_sciense/assignment2/text.txt", "r")
+    f = open("text.txt", "r")
     words = f.read().replace("\n", " ").split(" ")
     f.close()
     
@@ -24,5 +24,3 @@ def countword():
     
     
     return counter
-
-countword()
